@@ -1,0 +1,26 @@
+.review{
+    margin-bottom: 1.1rem;
+    line-height: 1.5rem;
+    color: #2a2a2a;
+    padding: 2rem;
+    background-color: #eaeaea;
+    border-radius: 0.6rem;
+}
+
+.reviewer-details{
+    display: flex;
+}
+
+.reviewer-details img{
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.reviewer-name{
+    font-weight: bold;
+}
+
+.reviewer-details img:hover, .review:hover{
+    transform: scale(1.1);
+}
